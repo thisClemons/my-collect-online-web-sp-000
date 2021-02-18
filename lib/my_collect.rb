@@ -6,5 +6,5 @@ def my_collect(array)
     collected[counter] = yield(array[counter])
     counter += 1
   end
-  array
+  collected
 end
